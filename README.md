@@ -1,5 +1,5 @@
 ## SettingsFirewall
-An Xposed module that blocks shitty apps from accessing your system settings (for example, check if development settings is enabled on the device, or check if there are running accessibility services).
+An Xposed module that blocks shitty apps from accessing your system settings (for example, check if development settings is enabled on the device, or check if there are running accessibility services)..
 
 Please note that only accesses to system settings (e.g. [Settings APIs](https://developer.android.com/reference/android/provider/Settings) or `/system/bin/settings get`) can be intercepted by this module. 
 Accesses to system properties (e.g. `android.os.SystemProperties APIs`, `__system_property_get` or `getprop`) or other system APIs cannot be blocked.
